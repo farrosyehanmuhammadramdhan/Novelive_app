@@ -80,8 +80,7 @@ class HomepageContent extends StatelessWidget {
                   ),
                   child: Row(
                     children: [
-                      Expanded(
-                        child: Container(
+                      Container(
                           margin: const EdgeInsets.only(left: 5),
                           height: 50,
                           width: 280,
@@ -92,7 +91,6 @@ class HomepageContent extends StatelessWidget {
                             ),
                           ),
                         ),
-                      ),
                       const Spacer(),
                       const Icon(
                         Icons.search,
